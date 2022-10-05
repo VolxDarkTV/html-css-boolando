@@ -3,3 +3,19 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    background-color: orange;
+}
+.header-center{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    height: 100px;
+    background-color: aquamarine;
+}
