@@ -8,7 +8,10 @@ header{
     display: flex;
     justify-content: center;
     height: 80px;
+    width: 100%;
     background-color: orange;
+    position: fixed;
+    z-index: 500;
 }
 .header-center{
     display: flex;
@@ -41,4 +44,83 @@ header{
 }
 .header-icons i{
     cursor: pointer;
+}
+
+
+
+/* Main */
+main{
+    min-height: 1300px;
+    padding-top: 120px;
+    /* DEBUG */
+    /* border: solid black 5px; */
+    background-color: brown;
+}
+.main-shop-grid{
+    display: flex;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    min-height: 200px;
+    /* DEBUG */
+    background-color: blue;
+}
+.col{
+    min-width: 200px;
+    min-height: 300px;
+    position: relative;
+    background-color: #fff;
+    /* DEBUG */
+    /* border: solid black 1px; */
+}
+/* Wish List */
+.wish-list{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: #fff;
+    
+}
+.wish-list-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 50px;
+}
+/* Percent-Discount-Sostenibility */
+.percent-discount-sostenibility{
+    min-width: 100px;
+    height: 20px;
+    position: absolute;
+    bottom: 100px;
+    /* DEBUG */
+    /* background-color: rgb(15, 218, 59); */
+}
+.discount-percent, .sostenibility{
+    padding: 2px;
+    border: solid rgb(0, 0, 0, 0.1) 1px;
+    color: #fff;
+}
+.discount-percent{
+    background-color: red;
+    margin-right: 5px;
+}
+.sostenibility{
+    background-color: green;
+}
+.images-size{
+    width: 400px;
+}
+.discount{
+    text-decoration: line-through;
+    color: rgb(65, 65, 65);
+}
+.price-color{
+    color: red;
 }
