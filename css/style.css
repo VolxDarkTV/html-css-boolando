@@ -28,6 +28,13 @@ header{
     justify-content: space-between;
     width: 150px;
 }
+.gender-text div a{
+    text-decoration: none;
+    color: black;
+}
+.gender-text div a:hover{
+    text-decoration: underline;
+}
 /* Logo */
 #logo{
     display: flex;
@@ -42,9 +49,14 @@ header{
     justify-content: space-between;
     width: 80px;
 }
-.header-icons i{
+.header-icons a i{
     cursor: pointer;
+    color: #000;
 }
+.header-icons a i:hover{
+    color: #fff;
+}
+
 
 
 
@@ -170,4 +182,7 @@ footer{
     justify-content: space-around;
     font-size: 18px;
     margin-top: 10px;
+}
+.socials-icon a i{
+    color: #fff;
 }
