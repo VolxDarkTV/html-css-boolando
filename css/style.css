@@ -7,7 +7,7 @@
 header{
     display: flex;
     justify-content: center;
-    height: 100px;
+    height: 80px;
     background-color: orange;
 }
 .header-center{
@@ -16,6 +16,29 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 65%;
-    height: 100px;
-    background-color: aquamarine;
+    /* background-color: aquamarine; */
+}
+/* Class Gender Txt */
+.gender-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 150px;
+}
+/* Logo */
+#logo{
+    display: flex;
+    justify-content: center;
+}
+#logo img{
+    width: 20%;
+}
+/* Icons */
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+.header-icons i{
+    cursor: pointer;
 }
