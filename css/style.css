@@ -186,3 +186,6 @@ footer{
 .socials-icon a i{
     color: #fff;
 }
+.socials-icon a i:hover{
+    color: rgb(179, 179, 179);
+}
