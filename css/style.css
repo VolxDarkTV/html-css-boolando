@@ -118,10 +118,56 @@ main{
 .images-size{
     width: 400px;
 }
+/* IMAGES HOVER */
+.images-size.hover{
+    display: none;
+}
+.col:hover .images-size{
+    display: none;
+}
+.col:hover .images-size.hover{
+    display: block;
+}
+
 .discount{
     text-decoration: line-through;
     color: rgb(65, 65, 65);
 }
 .price-color{
     color: red;
+}
+
+
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+    margin-top: 60px;
+}
+.footer-center{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5%;
+    width: 65%;
+    height: 100px;
+    /* DEBUG */
+    /* background-color: aquamarine; */
+}
+.footer-txt{
+    padding-right: 20px;
+    min-width: 100px;
+    height: 20px;
+    color: #fff;
+    /* DEBUG */
+    /* background-color: rgb(255, 255, 255); */
+}
+.socials-icon{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    margin-top: 10px;
 }
