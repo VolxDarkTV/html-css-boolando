@@ -54,11 +54,12 @@ main{
     padding-top: 120px;
     /* DEBUG */
     /* border: solid black 5px; */
-    background-color: brown;
+    /* background-color: brown; */
 }
 .main-shop-grid{
     display: flex;
     justify-content: center;
+    margin-top: 50px;
 }
 .row{
     display: flex;
@@ -66,7 +67,7 @@ main{
     width: 65%;
     min-height: 200px;
     /* DEBUG */
-    background-color: blue;
+    /* background-color: blue; */
 }
 .col{
     min-width: 200px;
