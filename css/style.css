@@ -3,13 +3,15 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+body{
+    font-family:Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ }
 header{
     display: flex;
     justify-content: center;
     height: 80px;
     width: 100%;
-    background-color: orange;
+    background-color: rgb(236, 102, 30);
     position: fixed;
     z-index: 500;
 }
@@ -26,7 +28,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 150px;
+    width: 180px;
 }
 .gender-text div a{
     text-decoration: none;
@@ -36,7 +38,7 @@ header{
     text-decoration: underline;
 }
 /* Logo */
-#logo{
+#logo a{
     display: flex;
     justify-content: center;
 }
