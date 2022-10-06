@@ -24,17 +24,20 @@ header{
     /* background-color: aquamarine; */
 }
 /* Class Gender Txt */
-.gender-text{
+.gender-text ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 180px;
 }
-.gender-text div a{
-    text-decoration: none;
-    color: rgb(255, 255, 255);
+.gender-text #gender li{
+    list-style-type: none; 
 }
-.gender-text div a:hover{
+.gender-text ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.gender-text ul li a:hover{
     text-decoration: underline;
 }
 /* Logo */
@@ -51,9 +54,12 @@ header{
     justify-content: space-between;
     width: 80px;
 }
-.header-icons a i{
+.header-icons li{
+    list-style-type: none;
+}
+.header-icons li a i{
     cursor: pointer;
-    color: rgb(255, 255, 255);
+    color: #fff;
 }
 .header-icons a i:hover{
     color: rgb(189, 189, 189);
