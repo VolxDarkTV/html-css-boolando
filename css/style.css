@@ -32,7 +32,7 @@ header{
 }
 .gender-text div a{
     text-decoration: none;
-    color: black;
+    color: #fff;
 }
 .gender-text div a:hover{
     text-decoration: underline;
@@ -53,10 +53,10 @@ header{
 }
 .header-icons a i{
     cursor: pointer;
-    color: #000;
+    color: #fff;
 }
 .header-icons a i:hover{
-    color: #fff;
+    color: rgb(189, 189, 189);
 }
 
 
