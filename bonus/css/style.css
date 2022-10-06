@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family:Whitney, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+ }
+header{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    width: 100%;
+    background-color: rgb(236, 102, 30);
+    position: fixed;
+    z-index: 500;
+}
+.header-center{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+    width: 65%;
+    /* background-color: aquamarine; */
+}
+/* Class Gender Txt */
+.gender-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+}
+.gender-text div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+.gender-text div a:hover{
+    text-decoration: underline;
+}
+/* Logo */
+#logo a{
+    display: flex;
+    justify-content: center;
+}
+#logo img{
+    width: 20%;
+}
+/* Icons */
+.header-icons{
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
+.header-icons a i{
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+}
+.header-icons a i:hover{
+    color: rgb(189, 189, 189);
+}
+
+
+
+
+/* Main */
+main{
+    min-height: 1300px;
+    padding-top: 120px;
+    /* DEBUG */
+    /* border: solid black 5px; */
+    /* background-color: brown; */
+}
+.main-shop-grid{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.row{
+    display: flex;
+    justify-content: space-evenly;
+    width: 65%;
+    min-height: 200px;
+    /* DEBUG */
+    /* background-color: blue; */
+}
+.col{
+    min-width: 200px;
+    min-height: 300px;
+    position: relative;
+    background-color: #fff;
+    /* DEBUG */
+    /* border: solid black 1px; */
+}
+/* Wish List */
+.wish-list{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 10px;
+    background-color: #fff;
+    
+}
+.wish-list-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    height: 50px;
+}
+.wish-list-center a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+.wish-list:hover .wish-list-center h3 {
+    color: red;
+}   
+/* Percent-Discount-Sostenibility */
+.percent-discount-sostenibility{
+    min-width: 100px;
+    height: 20px;
+    position: absolute;
+    bottom: 100px;
+    /* DEBUG */
+    /* background-color: rgb(15, 218, 59); */
+}
+.discount-percent, .sostenibility{
+    padding: 2px;
+    border: solid rgb(0, 0, 0, 0.1) 1px;
+    color: #fff;
+}
+.discount-percent{
+    background-color: red;
+    margin-right: 5px;
+}
+.sostenibility{
+    background-color: green;
+}
+.images-size{
+    width: 400px;
+}
+/* IMAGES HOVER */
+.images-size.hover{
+    display: none;
+}
+.col:hover .images-size{
+    display: none;
+}
+.col:hover .images-size.hover{
+    display: block;
+}
+
+.discount{
+    text-decoration: line-through;
+    color: rgb(65, 65, 65);
+}
+.price-color{
+    color: red;
+}
+
+
+
+/* Footer */
+footer{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 100px;
+    background-color: black;
+    margin-top: 60px;
+}
+.footer-center{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5%;
+    width: 65%;
+    height: 100px;
+    /* DEBUG */
+    /* background-color: aquamarine; */
+}
+.footer-txt{
+    padding-right: 20px;
+    min-width: 100px;
+    height: 20px;
+    color: #fff;
+    /* DEBUG */
+    /* background-color: rgb(255, 255, 255); */
+}
+.socials-icon{
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.socials-icon a i{
+    color: #fff;
+}
+.socials-icon a i:hover{
+    color: rgb(179, 179, 179);
+}
